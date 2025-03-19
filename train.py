@@ -13,7 +13,7 @@ import time
 import logging
 import shutil
 import json
-from Canny import EdgeDetectionOptimizer
+from utils.canny import EdgeDetectionOptimizer
 from model.segmentation_net import SegmentationNet
 
 # 设置随机种子以确保实验可重复性
